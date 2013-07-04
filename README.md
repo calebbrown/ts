@@ -4,9 +4,16 @@ Add date and time to stdout.
 
 ## Overview
 
-Ever wanted to add timestamps to the output of another command? Then `ts` is your friend.
+Ever wanted to add timestamps to the output of another command?
+Then `ts` is your friend.
 
-It simply prepends every line it receives from stdin with the current time and date.
+It simply prepends every line it receives from stdin with the current
+time and date.
+
+And yes, you could just run something like
+`alias ts='xargs -Iln bash -c "echo \$(date) ln"'`,
+but this is faster and easier to use. Plus it's written in [Go](http://golang.org/)
+so it's way better.
 
 
 ## Installation
