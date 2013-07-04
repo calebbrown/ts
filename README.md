@@ -1,6 +1,6 @@
 # ts
 
-Add timestamps to stdout.
+Add date and time to stdout.
 
 ## Overview
 
