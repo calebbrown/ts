@@ -11,7 +11,7 @@ It simply prepends every line it receives from stdin with the current time and d
 
 ## Installation
 
-Make sure Go 1.1 is installed.
+Make sure Go 1.1 is installed and `$GOPATH` is set.
 
 Then run:
 
